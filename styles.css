@@ -1,1 +1,41 @@
-/*  your css code here. If applicable */
+/* Body styling */
+body {
+  background-color: rgb(204, 204, 204);
+  font-family: Arial, sans-serif;
+}
+
+/* Headings */
+h1, h2 {
+  text-align: center;
+}
+
+/* Playlist */
+ul {
+  padding: 0;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+li {
+  list-style-type: none;
+  margin: 5px 0;
+}
+
+li a {
+  text-decoration-line: none;
+  color: #000;
+}
+
+/* Video and Audio Player Containers */
+.player_one, .player_two {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+video, audio {
+  width: 100%;
+  border-radius: 8px;
+}
